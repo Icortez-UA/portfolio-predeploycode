@@ -1,0 +1,56 @@
+body {
+    background-image: url("images/prism.png") ;
+}
+.container {
+    width: 90%;
+}
+.rightborder{
+    border-right: .5px solid #777777;
+}
+.bg-light {
+    background-color: #ffffff!important;
+    border-bottom: 1px solid #777777;
+}
+.navbar-brand {
+    background-color: #4aaaa5;
+    color: #ffffff!important;
+    padding-left: .3125rem;
+    padding-right: .3125rem;
+    float: left;
+    margin-right: 0;
+}
+.myborder {
+    border: 1px solid #777777;
+}
+.contentbackground {
+    background-color: #ffffff;
+    height: 100%;
+}
+.textbox {
+    box-sizing: border-box;
+    width: 80%;
+    position: absolute;
+    bottom: 50px;
+    right: 33px;
+    background-color: #4aaaa5;
+    opacity: .5;
+    color: white;
+    transition: .5s ease;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.col-md-4:hover .textbox {
+    opacity: 1;
+}
+.col-md-6:hover .textbox{
+    opacity: 1;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #777777;
+    color: #ffffff;
+    border-top: 3px solid #4aaaa5;
+}
